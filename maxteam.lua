@@ -9912,18 +9912,18 @@ end
 if text == 'السورس' or text == 'سورس' or text == 'يا سورس' or text == 'source' then
 photo = "https://t.me/keowkdjodnxnkd/2"
 local T =[[
-Welcome to Source : [JOKER TEAM.](https://t.me/BBTBB)
+Welcome to Source : [Max TEAM.](https://t.me/ODKXXQ)
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝖣𝖤𝖵𝖤𝖫𝖮𝖯𝖤𝖱 ', url = "https://t.me/FFMFF"},{text = '𝖲𝗈𝗎𝗋𝖼𝖾 JOKER', url = "https://t.me/BBTBB"}
+{text = '𝖣𝖤𝖵𝖤𝖫𝖮𝖯𝖤𝖱 ', url = "https://t.me/YTTYB"},{text = '𝖲𝗈𝗎𝗋𝖼𝖾 Max', url = "https://t.me/OXKXDQK"}
 },
 {
-{text = 'ُ𝖳𝖶𝖲 Abbas', url = "https://t.me/FFMFF"}
+{text = 'ُ𝖳𝖶𝖲 Haider', url = "https://t.me/Bbbbjj_bot"}
 },
 {
-{text = 'JOKER TEAM.', url = "https://t.me/BBTBB"}
+{text = 'MAX TEAM.', url = "https://t.me/ODKXXQ"}
 },
 }
 local msgg = msg_id/2097152/0.5
