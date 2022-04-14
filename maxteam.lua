@@ -9912,7 +9912,7 @@ end
 if text == 'السورس' or text == 'سورس' or text == 'يا سورس' or text == 'source' then
 photo = "https://t.me/keowkdjodnxnkd/2"
 local T =[[
-Welcome to Source : [Max TEAM.](https://t.me/BBTBB)
+Welcome to Source : [JOKER TEAM.](https://t.me/BBTBB)
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
