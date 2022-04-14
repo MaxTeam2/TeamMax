@@ -9910,7 +9910,7 @@ local rep = msg.id/2097152/0.5
 https.request("https://api.telegram.org/bot"..Token.."/sendphoto?chat_id="..msg_chat_id.."&caption="..URL.escape(t).."&photo="..m.."&reply_to_message_id="..rep.."&parse_mode=Markdown")
 end
 if text == 'السورس' or text == 'سورس' or text == 'يا سورس' or text == 'source' then
-photo = "https://t.me/keowkdjodnxnkd/2"
+video = "https://t.me/keowkdjodnxnkd/3"
 local T =[[
 Welcome to Source : [Max TEAM.](https://t.me/ODKXXQ)
 ]]
@@ -9927,7 +9927,7 @@ keyboard.inline_keyboard = {
 },
 }
 local msgg = msg_id/2097152/0.5
-https.request("https://api.telegram.org/bot"..Token.."/sendvideo?chat_id=" .. msg_chat_id .. "&photo="..photo.."&caption=".. URL.escape(T).."&reply_to_message_id="..msgg.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
+https.request("https://api.telegram.org/bot"..Token.."/sendvideo?chat_id=" .. msg_chat_id .. "&video="..video.."&caption=".. URL.escape(T).."&reply_to_message_id="..msgg.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 
 elseif text == 'الاوامر' then
 if not msg.Addictive then
