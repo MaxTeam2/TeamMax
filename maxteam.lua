@@ -9917,13 +9917,13 @@ Welcome to Source : [JOKER TEAM.](https://t.me/BBTBB)
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝖣𝖤𝖵𝖤𝖫𝖮𝖯𝖤𝖱', url = "https://t.me/YTTYB"},{text = '𝖲𝗈𝗎𝗋𝖼𝖾 Max', url = "https://t.me/OXKXDQK"}
+{text = '𝖣𝖤𝖵𝖤𝖫𝖮𝖯𝖤𝖱 ', url = "https://t.me/FFMFF"},{text = '𝖲𝗈𝗎𝗋𝖼𝖾 JOKER', url = "https://t.me/BBTBB"}
 },
 {
-{text = 'ُ𝖳𝖶𝖲 Haider', url = "https://t.me/Bbbbjj_bot"}
+{text = 'ُ𝖳𝖶𝖲 Abbas', url = "https://t.me/FFMFF"}
 },
 {
-{text = 'MAX TEAM', url = "https://t.me/ODKXXQ"}
+{text = 'JOKER TEAM.', url = "https://t.me/BBTBB"}
 },
 }
 local msgg = msg_id/2097152/0.5
