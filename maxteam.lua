@@ -9910,7 +9910,7 @@ local rep = msg.id/2097152/0.5
 https.request("https://api.telegram.org/bot"..Token.."/sendphoto?chat_id="..msg_chat_id.."&caption="..URL.escape(t).."&photo="..m.."&reply_to_message_id="..rep.."&parse_mode=Markdown")
 end
 if text == 'السورس' or text == 'سورس' or text == 'يا سورس' or text == 'source' then
-video = "https://t.me/keowkdjodnxnkd/3"
+video = "https://t.me/jskskdkkdld/4"
 local T =[[
 Welcome to Source : [Max TEAM.](https://t.me/ODKXXQ)
 ]]
