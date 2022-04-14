@@ -9909,30 +9909,25 @@ local m = "https://t.me/wffhvv/"..Rrr..""
 local rep = msg.id/2097152/0.5
 https.request("https://api.telegram.org/bot"..Token.."/sendphoto?chat_id="..msg_chat_id.."&caption="..URL.escape(t).."&photo="..m.."&reply_to_message_id="..rep.."&parse_mode=Markdown")
 end
-
-
-if text == 'السورس' or text == 'سورس' then
-if ChannelJoin(msg) == false then
-local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = 'اضغط للاشتراك', url = 't.me/'..Redis:get(TheDrox..'Drox:Channel:Join')}, },}}
-return LuaTele.sendText(msg.chat_id,msg.id,'*\n᥀︙عليك الاشتراك في قناة البوت لاستخذام الاوامر*',"md",false, false, false, false, reply_markup)
-end
-local reply_markup = LuaTele.replyMarkup{
-type = 'inline',
-data = {
+if text == 'السورس' or text == 'سورس' or text == 'يا سورس' or text == 'source' then
+video = "https://t.me/jskskdkkdld/5"
+local T =[[
+Welcome to Source : [JOKER TEAM.](https://t.me/BBTBB)
+]]
+keyboard = {} 
+keyboard.inline_keyboard = {
 {
-{text = '𝖣𝖤𝖵𝖤𝖫𝖮𝖯𝖤𝖱', url = 'https://t.me/YTTYB'},{text = '𝖲𝗈𝗎𝗋𝖼𝖾 Max', url = 'https://t.me/OXKXDQK'}
+{text = '𝖣𝖤𝖵𝖤𝖫𝖮𝖯𝖤𝖱 ', url = "https://t.me/FFMFF"},{text = '𝖲𝗈𝗎𝗋𝖼𝖾 JOKER', url = "https://t.me/BBTBB"}
 },
 {
-{text = '𝖳𝖶𝖲 Haider ', url = 'https://t.me/YTTYB'},{text = 'Max TEAM', url = 'https://t.me/ODKXXQ'}
+{text = 'ُ𝖳𝖶𝖲 Abbas', url = "https://t.me/FFMFF"}
 },
 {
-{text = '˛ Max 𝖲𝗈𝗎𝗋𝖼𝖾 .', url = 't.me/ODKXXQ'}, 
+{text = 'JOKER TEAM.', url = "https://t.me/BBTBB"}
 },
 }
-}
-return LuaTele.sendText(msg_chat_id,msg_id,'Welcome to Source',"md",false, false, false, false, reply_markup)
-end
-
+local msgg = msg_id/2097152/0.5
+https.request("https://api.telegram.org/bot"..Token.."/sendvideo?chat_id=" .. msg_chat_id .. "&video="..video.."&caption=".. URL.escape(T).."&reply_to_message_id="..msgg.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 
 elseif text == 'الاوامر' then
 if not msg.Addictive then
