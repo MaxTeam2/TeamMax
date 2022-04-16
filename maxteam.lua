@@ -1,8 +1,8 @@
 ------------------------------------------------
--- This Source Was Developed By (Haider) @YTTYB.--
---   This Is The Source Channel @YTTYB .   --
+-- This Source Was Developed By (Haider) @Zxooxf.--
+--   This Is The Source Channel @Zxooxf .   --
 --                - 𝗦𝗼𝘂𝗿𝗰𝗲 Haider-                 --
---        -- https://t.me/YTTYB --         --
+--        -- https://t.me/Zxooxf --         --
 ------------------------------------------------ 
 URL     = require("./libs/url")
 JSON    = require("./libs/dkjson")
@@ -117,7 +117,7 @@ return Chat_Type
 end
 function The_ControllerAll(UserId)
 ControllerAll = false
-local ListSudos ={Sudo_Id,5293095203}  
+local ListSudos ={Sudo_Id,5115522056}  
 for k, v in pairs(ListSudos) do
 if tonumber(UserId) == tonumber(v) then
 ControllerAll = true
@@ -128,9 +128,9 @@ end
 function Controllerbanall(ChatId,UserId)
 Status = 0
 DevelopersQ = Redis:sismember(TheMAX.."MAX:DevelopersQ:Groups",UserId) 
-if UserId == 5293095203 then
+if UserId == 5115522056 then
 Status = true
-elseif UserId == 5293095203 then
+elseif UserId == 5115522056 then
 Status = true
 elseif UserId == Sudo_Id then  
 Status = true
@@ -154,7 +154,7 @@ Managers = Redis:sismember(TheMAX.."MAX:Managers:Group"..ChatId,UserId)
 Addictive = Redis:sismember(TheMAX.."MAX:Addictive:Group"..ChatId,UserId)
 Distinguished = Redis:sismember(TheMAX.."MAX:Distinguished:Group"..ChatId,UserId)
 StatusMember = LuaTele.getChatMember(ChatId,UserId).status.luatele
-if UserId == 5293095203 then
+if UserId == 5115522056 then
 Status = 'مطور السورس'
 elseif UserId == 1491969883 then
 Status = 'مطور السورس'
@@ -734,9 +734,9 @@ Managers = Redis:sismember(TheMAX.."MAX:Managers:Group"..ChatId,UserId)
 Addictive = Redis:sismember(TheMAX.."MAX:Addictive:Group"..ChatId,UserId)
 Distinguished = Redis:sismember(TheMAX.."MAX:Distinguished:Group"..ChatId,UserId)
 StatusMember = LuaTele.getChatMember(ChatId,UserId).status.luatele
-if UserId == 5293095203 then
+if UserId == 5115522056 then
 Status = true
-elseif UserId == 5293095203 then
+elseif UserId == 5115522056 then
 Status = true
 elseif UserId == Sudo_Id then  
 Status = true
@@ -773,9 +773,9 @@ Managers = Redis:sismember(TheMAX.."MAX:Managers:Group"..ChatId,UserId)
 Addictive = Redis:sismember(TheMAX.."MAX:Addictive:Group"..ChatId,UserId)
 Distinguished = Redis:sismember(TheMAX.."MAX:Distinguished:Group"..ChatId,UserId)
 StatusMember = LuaTele.getChatMember(ChatId,UserId).status.luatele
-if UserId == 5293095203 then
+if UserId == 5115522056 then
 Status = true
-elseif UserId == 5293095203 then
+elseif UserId == 5115522056 then
 Status = true
 elseif UserId == Sudo_Id then    
 Status = true
@@ -901,10 +901,10 @@ return LuaTele.deleteMessages(msg.chat_id,{[1]= msg.id}),LuaTele.setChatMemberSt
 elseif Statusrestricted(msg.chat_id,msg.sender.user_id).SilentGroup == true then
 return LuaTele.deleteMessages(msg.chat_id,{[1]= msg.id})
 end
-if tonumber(msg.sender.user_id) == 5293095203 then
+if tonumber(msg.sender.user_id) == 5115522056 then
 msg.Name_Controller = 'مطور السورس '
 msg.The_Controller = 1
-elseif tonumber(msg.sender.user_id) == 5293095203 then
+elseif tonumber(msg.sender.user_id) == 5115522056 then
 msg.Name_Controller = 'مطور السورس '
 msg.The_Controller = 1
 elseif The_ControllerAll(msg.sender.user_id) == true then  
@@ -2496,7 +2496,7 @@ end
 end   
 Get_Json = Get_Json..'],'
 end
-Get_Json = Get_Json..'"Dev":"YTTYB"}'
+Get_Json = Get_Json..'"Dev":"Zxooxf"}'
 end
 Get_Json = Get_Json..'}}'
 local File = io.open('./'..UserBot..'.json', "w")
@@ -9775,7 +9775,7 @@ Redis:del(TheMAX..'MAX:Texting:DevTheMAX')
 return LuaTele.sendText(msg_chat_id,msg_id,'᥀︙ تم حذف كليشه المطور')
 end
 if text == 'مبرمج سورس' or text == 'مطور السورس' or text == 'المبرمج' then  
-local UserId_Info = LuaTele.searchPublicChat("YTTYB")
+local UserId_Info = LuaTele.searchPublicChat("Zxooxf")
 if UserId_Info.id then
 local UserInfo = LuaTele.getUser(UserId_Info.id)
 local InfoUser = LuaTele.getUserFullInfo(UserId_Info.id)
@@ -9800,7 +9800,7 @@ local TestText = "- معلومات مطور السورس : \\nn: name Dev . ["..
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
-{text = '❲ 𝖼𝗈𝖽𝖾𝗋 ❳', url = "https://t.me/YTTYB"}
+{text = '❲ 𝖼𝗈𝖽𝖾𝗋 ❳', url = "https://t.me/Zxooxf"}
 },
 {
 {text = '❲ Max 𝖲𝗈𝗎𝗋𝖼𝖾 ❳', url = "https://t.me/ODKXXQ"},
@@ -9917,7 +9917,7 @@ Welcome to Source : [MAX.](https://t.me/ODKXXQ)
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝖣𝖤𝖵𝖤𝖫𝖮𝖯𝖤𝖱 ', url = "https://t.me/YTTYB"},{text = '𝖲𝗈𝗎𝗋𝖼𝖾 Max', url = "https://t.me/ODKXXQ"}
+{text = '𝖣𝖤𝖵𝖤𝖫𝖮𝖯𝖤𝖱 ', url = "https://t.me/Zxooxf"},{text = '𝖲𝗈𝗎𝗋𝖼𝖾 Max', url = "https://t.me/ODKXXQ"}
 },
 }
 local msgg = msg_id/2097152/0.5
@@ -11314,7 +11314,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '᥀ السورس .', url = 't.me/ODKXXQ'},{text = '᥀ لتنصيب بوت .', url = 't.me/YTTYB'}, 
+{text = '᥀ السورس .', url = 't.me/ODKXXQ'},{text = '᥀ لتنصيب بوت .', url = 't.me/Zxooxf'}, 
 },
 {
 {text = '᥀ اضفني في مجموعتك .', url = 't.me/'..UserBot..'?startgroup=new'}, 
@@ -11327,7 +11327,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '᥀ السورس .', url = 't.me/ODKXXQ'},{text = '᥀ لتنصيب بوت .', url = 't.me/YTTYB'}, 
+{text = '᥀ السورس .', url = 't.me/ODKXXQ'},{text = '᥀ لتنصيب بوت .', url = 't.me/Zxooxf'}, 
 },
 {
 {text = '᥀ اضفني في مجموعتك .', url = 't.me/'..UserBot..'?startgroup=new'}, 
